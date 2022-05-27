@@ -5,7 +5,7 @@
 // or fancyBox Commercial License for commercial use
 //
 // http://fancyapps.com/fancybox/
-// Copyright 2021 fancyApps
+// Copyright 2022 fancyApps
 //
 // ==================================================
 (function (window, document, $, undefined) {
@@ -4820,8 +4820,8 @@
     "afterKeydown.fb": function (e, instance, current, keypress, keycode) {
       var SlideShow = instance && instance.SlideShow;
 
-      // "P" or Spacebar
-      if (SlideShow && current.opts.slideShow && (keycode === 80 || keycode === 32) && !$(document.activeElement).is("button,a,input")) {
+      // "P"
+      if (SlideShow && current.opts.slideShow && (keycode === 80 ) && !$(document.activeElement).is("button,a,input")) {
         keypress.preventDefault();
 
         SlideShow.toggle();
