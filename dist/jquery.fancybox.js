@@ -1,5 +1,5 @@
 // ==================================================
-// fancyBox v3.5.7
+// fancyBox v3.5.8
 //
 // Licensed GPLv3 for open source use
 // or fancyBox Commercial License for commercial use
@@ -3054,7 +3054,7 @@
   });
 
   $.fancybox = {
-    version: "3.5.7",
+    version: "3.5.8",
     defaults: defaults,
 
     // Get current instance and execute a command.
