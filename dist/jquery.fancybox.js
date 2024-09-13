@@ -5,7 +5,7 @@
 // or fancyBox Commercial License for commercial use
 //
 // http://fancyapps.com/fancybox/
-// Copyright 2022 fancyApps
+// Copyright 2024 fancyApps
 //
 // ==================================================
 (function (window, document, $, undefined) {
@@ -2320,7 +2320,7 @@
             .children()
             .eq(0)
             .empty()
-            .html(caption);
+            .text(caption);
 
           captionH = $clone.outerHeight(true);
 
@@ -2968,7 +2968,7 @@
         $caption
           .children()
           .eq(0)
-          .html(caption);
+          .text(caption);
       } else {
         self.$caption = null;
       }
